@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Jogo da veia</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div id="container">
+        <div id="primeira_linha">
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+        </div>
+
+        <div id="segunda_linha">
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+        </div>
+
+        <div id="terceira_linha">
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+            <div onclick=coloca_simbolo(this) class="celula"></div>
+        </div>
+    </div>
+
+    <h2 id="jogador_atual">jogador da vez: 1</h2>
+
+    <button onclick= window.location.reload()  id="reiniciar">Reiniciar</button>
+
+    </div> 
+    
+</body>
+<script src="scripts.js"></script>
+</html>
